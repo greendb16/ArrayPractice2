@@ -1,4 +1,4 @@
-import java.util.Scanner
+import java.util.Scanner;
 
 public class OddOrEven {
     public static void main(String[]args){
@@ -17,5 +17,7 @@ public class OddOrEven {
             }
             else{odd++;}
         }
+        System.out.println("Even Numbers: "+ even);
+        System.out.println("Odd Numbers: "+ odd);
     }
 }
