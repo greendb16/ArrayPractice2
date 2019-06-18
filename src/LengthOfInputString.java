@@ -11,9 +11,7 @@ public class LengthOfInputString {
         int p=0;
         for( int i: myChars){
             p++;
-            if(i==32){
-                p--;
-            }
+            System.out.println(i);
            }
         System.out.println(p);
     }
